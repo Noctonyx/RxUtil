@@ -27,8 +27,8 @@
 // Created by shane on 9/06/2021.
 //
 
-#ifndef INDUSTRONAUT_REFLECTION_H
-#define INDUSTRONAUT_REFLECTION_H
+#ifndef RXUTIL_REFLECTION_H
+#define RXUTIL_REFLECTION_H
 
 template<
     typename Callable,
@@ -103,4 +103,4 @@ struct ReflectionLayout<Class> \
 }; \
 REGISTER_REFLECTION_INFO(Class)
 
-#endif //INDUSTRONAUT_REFLECTION_H
+#endif //RXUTIL_REFLECTION_H
